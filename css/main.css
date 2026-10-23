@@ -2,13 +2,21 @@
 
 /* Set custom variables here */
 
+:root{
+  --body-bg: #F6F3ED;
+  --dd-green: #2e483a;
+  --dd-green-rgb: 46, 72, 58; 
+  --color-light: #F6F3ED;
 
 
-
-
-.navbar-brand {
-  color: #F6F3ED;
+  --bs-dark:var(--dd-green);
+  --bs-dark-rgb:var(--dd-green-rgb);
+  --bs-primary: var(--dd-green);
+  --bs-primary-rgb: var(--dd-green-rgb);
+  --bt-rim: #F6F3ED;
+  --bs-primary-bg-subtle:var(--body-bg);
 }
+
 
 body {
   font-family: "Sarala", sans-serif;
@@ -31,6 +39,8 @@ h1, h2, h3 {
   height: 800px;
 }
 
+/* remember css is only for colour and look NOT FOR POSITIONING */
+
 #cta {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/cta-bg.png');
   background-repeat: no-repeat;
@@ -51,3 +61,5 @@ section:not(#hero):not(#cta){
     padding: 100px 0;
   }
 }
+
+
